@@ -6,8 +6,8 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Scanner entrada = new Scanner(System.in); // Quando há uma entrada String seguida de uma Inteiro, ele pega o 'Enter'
-		Scanner entradaString = new Scanner(System.in); // Para evitar dupla chamada de entrada, separou
+		Scanner entrada = new Scanner(System.in); // Quando há uma entrada String seguida de um Inteiro, ele pega o 'Enter'
+		Scanner entradaString = new Scanner(System.in); // Para evitar dupla chamada de entrada, separei
 		
 		Pessoa pessoa = new Pessoa();
 		Endereco endereco = new Endereco();
@@ -55,9 +55,10 @@ public class Aplicacao {
 		
 		
 		/*
-		 * Modo "manual", mas sempre será preciso criar o endereço antes, se não houver a instância do objeto no construtor
-		 * por ter a criação do objeto Endereço dentro da classe Pessoa, não vai funcionar se instanciar o objeto aqui
-		 * 
+		 * Modo "manual": nesse caso sempre será preciso criar o objeto endereco antes.
+		   No entanto, nesse modo, não pode haver a criação do objeto endereco na classe Pessoa, pois está criando por fora e instanciando		 * 
+			
+			
 			Endereco endereco2 = new Endereco();
 			
 			endereco2.setLogradouro("Logradouro A");
