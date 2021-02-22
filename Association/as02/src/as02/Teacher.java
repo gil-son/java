@@ -3,7 +3,7 @@ package as02;
 public class Teacher {
 	private String name;
 	private String specialty;
-	private Seminary seminary;
+	private Seminary[] seminarys; // You can create an array from the Seminary class
 	
 	
 	
@@ -14,6 +14,19 @@ public class Teacher {
 	public Teacher(String name, String specialty) {
 		this.name = name;
 		this.specialty = specialty;
+	}
+	
+	public void print() {
+		System.out.println(
+				"\n------------- Relatory of Teacher -------------\n"+
+				"Name of teacher: "+this.name+
+				"\nSpecialty: "+this.specialty+
+				"\nSeminarys: "
+				);
+		
+		for(Seminary sem : seminarys ) {
+			System.out.print(sem.getTitle());
+		}
 	}
 
 	public String getName() {
@@ -32,16 +45,13 @@ public class Teacher {
 		this.specialty = specialty;
 	}
 
-	public Seminary getSeminary() {
-		return seminary;
+	public Seminary[] getSeminarys() {
+		return seminarys;
 	}
 
-	public void setSeminary(Seminary seminary) {
-		this.seminary = seminary;
+	public void setSeminarys(Seminary[] seminarys) { // Receive an array of object
+		this.seminarys = seminarys;
 	}
-	
-	
-	
-	
+
 	
 }
