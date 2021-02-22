@@ -2,16 +2,31 @@ package as02;
 
 public class Student {
 	private String name;
-	private int idade;
+	private int age;
 	private Seminary seminary;
 	
 	public Student() {
 		
 	}
 	
-	public Student(String name, int idade) {
+	
+	public Student(String name, int age) {
 		this.name = name;
-		this.idade = idade;
+		this.age = age;
+	}
+	
+	
+	public void print() {
+		System.out.println(
+				"\n------------- Relatory of Students -------------\n"+
+				"\nName: "+this.name+
+				"\nAge: "+this.age);
+		
+		if(this.seminary == null)
+			System.out.println("Student not subscribed in the seminary ");
+		else					
+			System.out.println("Seminary subscribed: "+this.seminary.getTitle());
+			
 	}
 	
 	public String getName() {
@@ -22,12 +37,21 @@ public class Student {
 		this.name = name;
 	}
 	
-	public int getIdade() {
-		return idade;
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
 	}
 	
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public Seminary getSeminary() {
+		return seminary;
 	}
+
+	public void setSeminary(Seminary seminary) {
+		this.seminary = seminary;
+	}
+	
 	
 }
