@@ -15,6 +15,14 @@ public class Local {
 		this.district = district;
 	}
 	
+	public void print() {
+		System.out.println(
+				"\n------------- Relatory of Local -------------\n"+
+				"\nStreet:"+this.street+
+				"\nDistrict: "+this.district
+				);
+	}
+	
 	
 	public String getStreet() {
 		return street;
