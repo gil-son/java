@@ -26,8 +26,7 @@ public class Collection {
 		int i = 1;
 		//            bs to each item in listBooks
 		for(BookStore bs : listBooks) {
-			saida += "\n ===== LIVRO Nº "+ (i++) +" =====\n" + bs.print();
-			saida += bs.print() + "\n";
+			saida += "\n ===== LIVRO Nº "+ (i++) +" =====\n" + bs.print()+"\n";
 		}
 		
 		
