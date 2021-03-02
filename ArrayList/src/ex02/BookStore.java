@@ -72,7 +72,7 @@ public class BookStore {
 		public String print() {
 			return "Title: " + title + "\nAuthor: " + author +
 					"\nCode: "+ code + "\nGenre:" + genre +
-					String.format("\n $ %f.2", price);
+					String.format("\n $ %.2f", price);
 		}
 		
 		
