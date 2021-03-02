@@ -28,8 +28,6 @@ public class Collection {
 		for(BookStore bs : listBooks) {
 			saida += "\n ===== LIVRO Nº "+ (i++) +" =====\n" + bs.print()+"\n";
 		}
-		
-		
 		return saida;
 	}
 	
@@ -69,8 +67,8 @@ public class Collection {
 				return true;
 			}
 		}
-		return false;
 		
+		return false;
 	}
 	
 	
@@ -82,6 +80,5 @@ public class Collection {
 		}
 		
 		return total;
-		
 	}
 }
