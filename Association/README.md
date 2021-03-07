@@ -6,8 +6,8 @@
 ### About
 <p><b>Association:</b> No ownership & No lifetime dependency.</p>
 <p><b>Aggregation:</b> One owner instance but no lifetime dependency.</p>
-<p><b>Composition:</b> One owner instance and lifetime of child instance depends on</p>
-<p>lifetime of owner instance.</p>
+<p><b>Composition:</b> One owner instance and lifetime of child instance depends on lifetime of owner instance.</p>
+
 
 <hr/>
 
