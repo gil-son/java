@@ -1,4 +1,4 @@
-# java - JVM - heap_space
+# java - JVM - runtime_data_area - heap_space
 pratice
 
 <hr/>

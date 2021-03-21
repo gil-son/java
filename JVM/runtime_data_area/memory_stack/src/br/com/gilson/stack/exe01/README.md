@@ -1,4 +1,4 @@
-# java - JVM - memory_stack
+# java - JVM - runtime_data_area - memory_stack
 pratice
 
 <hr/>
