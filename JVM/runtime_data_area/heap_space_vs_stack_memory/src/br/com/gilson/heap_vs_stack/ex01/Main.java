@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=7ARGvdzKsAg&list=PLXbKgo5jPQE9CfGcwbv4SXq9sw6XO7oqL&index=10
 package br.com.gilson.heap_vs_stack.ex01;
 
 import java.util.Scanner;
@@ -40,7 +41,7 @@ public class Main {
 		Person p2 = p1;
 		System.out.println("Person2:"+p2);
 		System.out.println(" ---------- ");
-		System.out.println("Person1 = Person2:"+(p1==p2));
+		System.out.println("Person1 = Person2:"+(p1==p2)); // Reference and not data, to avoid the need for a new instance
 		p2.setName("John");
 		System.out.println(" ---------- ");
 		System.out.println("Person1:"+p1);
