@@ -20,13 +20,13 @@
 <p>1 30 5 23</p>
 <p>1+30+5+24 = 41</p>
 
-<hr>
+<hr/>
 <p>A n a</p>
 <p>↓ ↓ ↓</p>
 <p>1 14 1</p>
 <p>1+14+1 = 16</p>
 
-<hr>
+<hr/>
 <p>C i r k</p>
 <p>↓ ↓  ↓ ↓</p>
 <p>3 9 18 11</p>
@@ -68,8 +68,9 @@
   <li>y.hashCode() != x.hashCode(). Then equals() must be false.</li>
  </ol>
 
+<hr/>
 
-#### Sources:
+### Sources:
 <ul>
 <li>
   <a href="https://www.youtube.com/watch?v=O0fP8jA4RVA" />DevDojo</a></li>
