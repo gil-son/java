@@ -13,7 +13,7 @@ O(log N) to binaries search) thats can be useless in a big table. But
 using a hash table to search, the time is reduce to (O(1)) for any situation, justing calculate the value Hash Code in input and output information.
 </p>
 
-### Example 1
+### Example 1 - In this case, was create this rule for HashCode, but can be many rules
 #### Observe the following rule, in which each letter of the alphabet will receive a value according to the order of writing:
 
 <p>A = 1</p>
