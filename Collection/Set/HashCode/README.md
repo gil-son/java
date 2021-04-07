@@ -1,6 +1,18 @@
 # java
 
 ## Set - hashCode()
+
+### Introduction
+
+<p>
+Imagine if you have a table with information of all pacients of hospital.
+</p>
+<p>
+If you search for a pacient, the time is (O(n) linear search or 
+O(log N) to binaries search) thats can be useless in a big table. But
+using a hash table to search, the time is reduce to (O(1)) for any situation, justing calculate the value Hash Code in input and output information.
+</p>
+
 ### Example 1
 #### Observe the following rule, in which each letter of the alphabet will receive a value according to the order of writing:
 
