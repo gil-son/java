@@ -9,12 +9,10 @@ public abstract class  Animal  {
 	}
 	
 	// From the example above, it is not possible to create an object of the Animal class:
-	
 }
 
 class Main{
 	public static void main(String[] args) {
 		// Animal myObj = new Animal(); // will generate an error
 	}
-	
 }
