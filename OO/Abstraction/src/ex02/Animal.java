@@ -9,7 +9,6 @@ public abstract class  Animal  {
 	}
 	
 	// From the example above, it is not possible to create an object of the Animal class:
-	
 }
 
 
@@ -26,5 +25,4 @@ class Main{
 		bird.animalSound();
 		bird.sleep();
 	}
-	
 }
