@@ -7,7 +7,6 @@ public interface Animal {
 	
 }
 
-
 // Pig "implements" the Animal interface
 class Pig implements Animal{
 	
