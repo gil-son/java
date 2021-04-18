@@ -1,11 +1,11 @@
 package ex03; // w3schools.com/java/java_interface.asp
 
 interface FirstInterface {
-	  public void myMethod(); // interface method
+	  public void myMethod(); // Interface method
 }
 
 interface SecondInterface {
-	  public void myOtherMethod(); // interface method
+	  public void myOtherMethod(); // Interface method
 }
 
 class DemoClass implements FirstInterface, SecondInterface{
