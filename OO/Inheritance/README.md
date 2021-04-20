@@ -18,5 +18,4 @@
 <hr/>
 
 ## Overloaded vs. Overriding
-
-https://www.scientecheasy.com/wp-content/uploads/2019/04/overloaded-vs-overriding.png
+<img src="https://www.scientecheasy.com/wp-content/uploads/2019/04/overloaded-vs-overriding.png" />
