@@ -19,3 +19,6 @@
 ### Diagram
 <a href="https://imgbox.com/uC4oaAIb" target="_blank"><img src="https://images2.imgbox.com/6b/cd/uC4oaAIb_o.png" alt="image host"/></a>
 
+
+### UML
+<img src="https://1.bp.blogspot.com/-VL_9cjhwEE4/UvJN__IvaBI/AAAAAAAABCc/IkDmShgM-Yc/s1600/Association,+Composition+UML.JPG"/>
