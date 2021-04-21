@@ -34,6 +34,18 @@
 
 <a href="https://imgbox.com/4SSQgdm4" target="_blank"><img src="https://images2.imgbox.com/72/e2/4SSQgdm4_o.png" alt="image host"/></a>
 
+
+
 <hr/>
 
 <a href="https://imgbox.com/tYb4vaS0" target="_blank"><img src="https://images2.imgbox.com/d9/ca/tYb4vaS0_o.png" alt="image host"/></a>
+
+<hr/>
+
+### Sources
+
+<ul>
+<li>
+<a href="https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/"> Engineering Delta Text</a>
+  </li>
+ </ul>
