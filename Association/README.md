@@ -47,5 +47,10 @@
 <ul>
 <li>
 <a href="https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/"> Engineering Delta Text</a>
+  
+  
   </li>
+  <li>
+  <a href="https://www.geeksforgeeks.org/association-composition-aggregation-java/"> Engineering Delta Text</a>
+    </li>
  </ul>
