@@ -51,6 +51,6 @@
   
   </li>
   <li>
-  <a href="https://www.geeksforgeeks.org/association-composition-aggregation-java/"> Engineering Delta Text</a>
+  <a href="https://www.geeksforgeeks.org/association-composition-aggregation-java/"> Geeks for Geeks</a>
     </li>
  </ul>
