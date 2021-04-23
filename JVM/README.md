@@ -6,4 +6,4 @@ pratice
 
 <hr/>
 
-<img src="<a href="https://imgbox.com/rSGCmH31" target="_blank"><img src="https://thumbs2.imgbox.com/03/8b/rSGCmH31_t.png" alt="image host"/></a>" />
+<a href="https://imgbox.com/rSGCmH31" target="_blank"><img src="https://thumbs2.imgbox.com/03/8b/rSGCmH31_t.png" alt="image host"/></a>
