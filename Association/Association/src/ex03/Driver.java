@@ -11,7 +11,7 @@ public class Driver {
 		Wheel wheel4 = new Wheel();
 		
 		wheel1.setName("Front left wheel"); 	
-		wheel2.setName("Front right wheel");
+		wheel2.setName("Front right wheel"); 
 		wheel3.setName("Back left wheel"); 		
 		wheel4.setName("Back right wheel");
 		
