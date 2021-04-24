@@ -56,6 +56,9 @@
     <li>
   <a href="https://www.baeldung.com/java-composition-aggregation-association"> Baeldung</a>
     </li>
+    <li>
+  <a href="https://pt.slideshare.net/armandodaniel777/java-orientao-a-objetos-associacao-composicao-agregacao"> Slide Share - Antionio Rodrigues Carvalho Neto</a>
+    </li>
  </ul>
  
  
