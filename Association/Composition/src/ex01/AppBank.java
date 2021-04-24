@@ -19,7 +19,7 @@ public class AppBank {
 		bank.getCa().get(1).status();
 		
 		
-		bank.sa.get(0).withDraw(51);
+		bank.sa.get(0).withDraw(51); 
 		
 		bank.allAccounts();
 	}

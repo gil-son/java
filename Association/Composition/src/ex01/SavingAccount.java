@@ -29,7 +29,7 @@ public class SavingAccount {
     	}
     }
     
-    public void status() {
+    public void status() { 
     	System.out.printf("\n\n\t Saving Account Status\n id: %d\n balance: %f",this.getId(),this.getBalance());
     }
     

@@ -13,7 +13,7 @@ public class CheckingAccount {
 		this.overdraft = overdraft;
 	}
 	
-	Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in); 
 	
 	
 	public int getId() {return id;}

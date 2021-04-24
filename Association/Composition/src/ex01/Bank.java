@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class Bank {
 		private int code = 0;
 		private Client c;
-	    public ArrayList<SavingAccount> sa = new ArrayList<SavingAccount>(); // public for test
+	    public ArrayList<SavingAccount> sa = new ArrayList<SavingAccount>(); // public for test 
 	    private ArrayList<CheckingAccount> ca = new ArrayList<CheckingAccount>();
 	    
 	    private static int numSA=0;
-	    private static int numCA=0;
+	    private static int numCA=0; 
 	       
 	    public ArrayList<CheckingAccount> getCa() {return ca;}
 		public void setCa(ArrayList<CheckingAccount> ca) {this.ca = ca;}
