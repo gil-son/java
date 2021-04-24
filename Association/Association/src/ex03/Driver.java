@@ -1,7 +1,5 @@
 package ex03;
 
-import ex01.Car;
-import ex01.Wheel;
 
 public class Driver {
 	
