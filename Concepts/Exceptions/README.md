@@ -87,5 +87,6 @@
 
 <ul>
   <li><a href="https://www.protechtraining.com/content/java_fundamentals_tutorial-exceptions">ProTech</a></li>
+  <li><a href="https://pt.stackoverflow.com/questions/63617/o-que-%C3%A9-a-nullpointerexception-e-quais-s%C3%A3o-suas-principais-causas">Stack Overflow (PT-BR)</a></li>	
 </ul>
 
