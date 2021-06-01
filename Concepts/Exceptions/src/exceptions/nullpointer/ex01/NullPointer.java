@@ -4,7 +4,7 @@ public class NullPointer {
 
 	public static void main(String[] args) {
 		
-		String name; // String name = null;
+		String name = null; // String name;
 		
 		if(name != null) {
 			System.out.println(name);
