@@ -11,8 +11,6 @@ public class NullPointer {
 		}else {
 			System.out.println("The references variable names is null");
 		}
-		
-		
 	}
 
 }
