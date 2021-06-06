@@ -1,4 +1,4 @@
-package ex01;
+package ex01.app;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -15,6 +15,15 @@ public class Program {
 			
 			showMenu();
 			op = sc.nextInt();
+			
+			switch (op) {
+			case 1: {System.out.println("1.."); break;}
+			case 2: {System.out.println("2"); break;}
+			case 3: {System.out.println("3"); break;}
+			default:
+				System.out.println("Invalid option: " + op);
+			}
+			
 			
 			
 			
