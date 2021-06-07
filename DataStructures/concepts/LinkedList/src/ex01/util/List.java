@@ -6,6 +6,23 @@ public class List {
 	
 	private Node head;
 	
+	public void remove(Double value) {
+		Node node = head;
+		while(node != null) {
+			System.out.println(node.getValue()+", "+value);
+			if((double) node.getValue() == (double) value) {
+				System.out.println("found it!");
+				System.out.println(node.getValue()+", "+value);
+				System.out.println((double)node.getValue()== (double)value);
+				break;
+			}
+			System.out.println("not found it!");
+			node = node.getNext();			
+		}
+		
+		
+	}
+	
 	public void add(Double value) {
 		Node node = new Node();
 			node.setValue(value);
@@ -57,10 +74,11 @@ public class List {
 	public String toString() {
 		StringBuffer sb = new StringBuffer();// Don't overload the memory with multiples concatennation. Used to optimize the construction of large strings
 		
-		Node p = new Node();
-		
 		sb.append("[");
-		while(p.getNext() != null) {
+		Node p = head;
+		
+		
+		while(p != null) {
 			sb.append(p.getValue() + " ");
 			p = p.getNext();
 		}
