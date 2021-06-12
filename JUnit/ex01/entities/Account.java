@@ -12,7 +12,7 @@ public class Account {
 	}
 
 	public Account(Long id, Double balance) {
-		super();
+		super(); 
 		this.id = id;
 		this.balance = balance;
 	}

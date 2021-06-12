@@ -17,7 +17,7 @@ public class AccountTests {
 		
 		// Assertions x;
 		Assertions.assertEquals(expectedValue, acc.getBalance());
-	}
+	} 
 	
 	@Test
 	public void depositShouldDonNothingWhenNegativeAmount() {
