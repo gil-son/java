@@ -32,13 +32,17 @@ public class AccountTests02 {
 	}
 	
 	@Test
-	public void fullwithDrawShouldReturnZeroBalance() {
+	public void fullwithDrawShouldClearBalanceAndReturnFullBalance() {
 		double expectedValue = 0.0;
-		double amount = 200.0;
-		Account02 acc = AccountFactory.createAccount(amount);
+		double value = 200.0;
 		
-		acc.fullWithdraw();
-		Assertions.assertEquals(expectedValue, acc.getBalance());
+		Account02 acc = AccountFactory.createAccount(value);
+		
+		
+		double result = acc.fullWithdraw();
+		
+		Assertions.assertTrue(result == value);
+		Assertions.assertTrue(expectedValue == acc.getBalance());
 	}
 	
 }
