@@ -8,6 +8,10 @@ public class Financing {
 	public Financing() {}
 	
 	public Financing(Double totalAmount, Double income, Integer months) {
+		
+		if(totalAmount * 20/100 <= income )
+			 throw new IllegalArgumentException("The income must be 20 percent or less than amount"); 
+		
 		this.totalAmount = totalAmount;
 		this.income = income;
 		this.months = months;
@@ -18,6 +22,9 @@ public class Financing {
 	}
 
 	public void setTotalAmount(Double totalAmount) {
+		if(getTotalAmount() / 0.2 < totalAmount )
+			 throw new IllegalArgumentException("The value must be 20 percent or less than amount"); 
+		
 		this.totalAmount = totalAmount;
 	}
 
@@ -26,7 +33,10 @@ public class Financing {
 	}
 
 	public void setIncome(Double income) {
-		this.income = income;
+		if(quota() > income /2.0)
+			 throw new IllegalArgumentException("The installment must be half or more than income"); 
+		
+		this.income = income;	
 	}
 
 	public Integer getMonths() {
