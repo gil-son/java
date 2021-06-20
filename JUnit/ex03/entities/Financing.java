@@ -8,9 +8,15 @@ public class Financing {
 	public Financing() {}
 	
 	public Financing(Double totalAmount, Double income, Integer months) {
+		/*
+		if(totalAmount == null)
+			 throw new IllegalArgumentException("The Total Amount must be informed!"); 
+		*/
+		// 2000 >= 2000
+		if(totalAmount * 0.8 / months > income / 2.0) {
+			throw new IllegalArgumentException("The quota/installment must be less or equal than half income");
+		}
 		
-		if(totalAmount * 20/100 <= income )
-			 throw new IllegalArgumentException("The income must be 20 percent or less than amount"); 
 		
 		this.totalAmount = totalAmount;
 		this.income = income;
@@ -22,10 +28,10 @@ public class Financing {
 	}
 
 	public void setTotalAmount(Double totalAmount) {
-		if(getTotalAmount() / 0.2 < totalAmount )
-			 throw new IllegalArgumentException("The value must be 20 percent or less than amount"); 
-		
-		this.totalAmount = totalAmount;
+		if(totalAmount * 0.8 / this.months > this.income / 2.0)
+			this.totalAmount = totalAmount;
+		else
+			throw new IllegalArgumentException("The new Amount is not enough. Because the half installment is more than income"); 
 	}
 
 	public Double getIncome() {
@@ -34,7 +40,7 @@ public class Financing {
 
 	public void setIncome(Double income) {
 		if(quota() > income /2.0)
-			 throw new IllegalArgumentException("The installment must be half or more than income"); 
+			 throw new IllegalArgumentException("The installment/quota must be half or more than income"); 
 		
 		this.income = income;	
 	}
@@ -44,15 +50,18 @@ public class Financing {
 	}
 
 	public void setMonths(Integer months) {
-		this.months = months;
+		if(totalAmount * 0.8 / months > this.income / 2.0)
+			this.months = months;
+		else
+			throw new IllegalArgumentException("The new months is not enough. Because the half installment is more than income"); 
 	}
 	
 	public double entry() {
-		return totalAmount * 0.2;
+		return this.totalAmount * 0.2;
 	}
 	
 	
 	public double quota() {
-		return totalAmount * 0.8 / months;
+		return this.totalAmount * 0.8 / months;
 	}
 }
