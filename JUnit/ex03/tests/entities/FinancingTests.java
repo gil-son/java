@@ -11,65 +11,113 @@ import tests.factory.FinancingFactory;
 public class FinancingTests {
 
 	@Test
-	public void entryShouldByTweetyPorcentOfIncome() {
-		double value = 100000.0;
+	public void entryShouldReturnTwentyPercentOfTotalAmount() {
+
+		Financing finance = FinancingFactory.createFinance(100000.0,2000.0,80);
+		double expectedValue = 0.2*finance.getTotalAmount();
+		double entry = finance.entry();
 		
-		Financing finance = FinancingFactory.createFinance(value,4000.0,40);
-		double expectedValue = finance.entry();
-		
-		Assertions.assertEquals(expectedValue, 0.2*finance.getTotalAmount());
+		Assertions.assertEquals(expectedValue, entry);
 		
 	}
 	
+
 	
 	@Test
-	public void installmentShouldBeEightyPercentOfAmount() {
-		double value = 100000.0;
+	public void quotainstallmentShouldBeEightyPercentOfAmount() {
 		
-		Financing finance = FinancingFactory.createFinance(value,4000.0,40);
-		double expectedValue = finance.quota();
+		Financing finance = FinancingFactory.createFinance(100000.0,2000.0,80);
 		
-		Assertions.assertEquals(expectedValue, (finance.getTotalAmount()*0.8)/finance.getMonths());
-	}
-	
-	
-	@Test
-	public void installmentShouldNotWhenIsMoreThanHalfIncome(){
-	
-		Assertions.assertThrows(IllegalArgumentException.class, () -> {
-			double value = 100000.0;
-			FinancingFactory.createFinance(value,4000.0,39);
-		});
+		double expectedValue = (finance.getTotalAmount()*0.8)/finance.getMonths();
+		double result = finance.quota();
+		
+		Assertions.assertEquals(expectedValue, result);
 	}
 	
 	// Constructor
 	
+	@Test
+	public void constructorShouldSetValuesWhenValidData() {
+		double values[] = {100000.0, 2000.0};
+		int value = 80;
+		Financing finance = FinancingFactory.createFinance(values[0], values[1], value);
+		
+		Assertions.assertEquals(values[0], finance.getTotalAmount());
+		Assertions.assertEquals(values[1], finance.getIncome());
+		Assertions.assertEquals(value, finance.getMonths());
+		
+	
+	}
+	
+	
+	@Test
+	public void constructorShouldIllegalArgumentExceptionWhenInvalidData(){
+	
+		Assertions.assertThrows(IllegalArgumentException.class, () -> {
+			FinancingFactory.createFinance(100000.0,2000.0,79);
+		});
+	}
 	
 	// Setters
 	
 	@Test
-	public void setAmountShouldByInstallmentIsMoreThanHalfIncome() {
-		double value = 100000.0;
+	public void setTotalAmountShouldSetValueWhenValidaData() {
+
+		Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+		finance.setTotalAmount(90000.0);
 		
-		Financing finance = FinancingFactory.createFinance(value,4000.0,40);
-		double expectedValue = 4005.0;
-		finance.setIncome(4005.0);
-		Assertions.assertEquals(expectedValue, finance.getIncome());
+		Assertions.assertEquals(90000.0, finance.getTotalAmount());
+	}
+	
+	
+	@Test
+	public void setTotalAmountShouldThrowIllegalArgumentExceptionWhenValidaData() {
+
+		Assertions.assertThrows(IllegalArgumentException.class, () -> {
+			Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+			finance.setTotalAmount(110000.0);
+		});
+	}
+	
+	
+	@Test
+	public void setIncomeShouldSetValueWhenValidaData() {
+		
+		Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+		finance.setIncome(3000.0);
+		Assertions.assertEquals(3000, finance.getIncome());
 		
 	}
 	
 	
 	@Test
-	public void setAmountShouldNotByInstallmentIsMoreThanHalfIncome() {
+	public void setIncomeShouldThrowIllegalArgumentExceptionWhenValidaData(){
+	
 		Assertions.assertThrows(IllegalArgumentException.class, () -> {
-			double value = 100000.0;
-			Financing finance = FinancingFactory.createFinance(value,4000.0,40);
-			finance.setIncome(3999.0);
+			Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+			finance.setIncome(1500.0);
 		});
-		
 	}
 	
 	
 	
+	@Test
+	public void setMonthsShouldSetValueWhenValidaData() {
+		
+		Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+		finance.setMonths(81);
+		Assertions.assertEquals(81, finance.getMonths());
+		
+	}
+	
+	
+	@Test
+	public void setMonthsShouldThrowIllegalArgumentExceptionWhenValidaData(){
+	
+		Assertions.assertThrows(IllegalArgumentException.class, () -> {
+			Financing finance = FinancingFactory.createFinance(100000.0, 2000.0, 80);
+			finance.setMonths(79);
+		});
+	}
 	
 }
