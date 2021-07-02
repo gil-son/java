@@ -92,7 +92,7 @@ public class Main {
 
 ```
 
-<a href=""/>More examples</a>
+<a href="https://github.com/gil-son/java/blob/main/Concepts/Exceptions/src/exceptions/ex01/Array.java"/>More examples</a>
 
 
 ## catch
@@ -111,6 +111,7 @@ public class Main {
   }
 }
 ```
+<a href="https://github.com/gil-son/java/tree/main/Concepts/Exceptions/src/exceptions/ex02"/>More examples</a>
 
 ## finally
 
@@ -148,7 +149,7 @@ public class Main {
 }
 ```
 
-<a href=""/>More examples</a>
+<a href="https://github.com/gil-son/java/blob/main/Concepts/Exceptions/src/exceptions/ex03/TestingFinally.java"/>More examples</a>
 
 
 
