@@ -21,4 +21,5 @@
 <ul>
 <li>
 <a href="https://www.infoescola.com/informatica/historia-do-java/"> Info Escola</a>
+ <a href="https://www.java.com/pt-BR/"> Oracle</a>
  </ul>
