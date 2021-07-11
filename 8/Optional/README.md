@@ -10,8 +10,30 @@
 </p>
 
  <p>
-  Before version 8 Java to resolve null objects was required verify with 'if' or treat with 'try/catch':
+  Before version 8 Java to resolve null objects was required verify with 'if':
  </p>
  
-
+ ```
  
+ Address ad = null;
+ 
+if(ad != null) {
+    System.out.println(ad.getAllAddress());
+  }else {
+    System.out.println("The variable is null, don't reference a object");
+  }
+    
+ ```
+
+<p>
+  or treat with 'try/catch':
+</p>
+
+```
+try {
+    System.out.println(ad.getAllAddress());
+  }catch(NullPointerException e) {
+    System.out.println(e.getMessage());
+  }
+ 
+```
