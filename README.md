@@ -25,5 +25,7 @@
  <li>
   <a href="https://www.java.com/pt-BR/"> Oracle</a>
  </li>
- 
+ <li>
+  <a href="https://www.devmedia.com.br/"> DevMedia</a>
+ </li>
  </ul>
