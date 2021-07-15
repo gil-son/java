@@ -24,7 +24,7 @@ if(ad != null) {
   }
     
  ```
-
+ 
 <p>
   or treat with 'try/catch':
 </p>
@@ -37,3 +37,48 @@ try {
   }
  
 ```
+
+
+#### ofNullable()
+
+<p>
+    This method verify if exist an object/value, case yes, will return an Optional, case not, will return an empty Optional:
+</p>
+
+```
+
+  public class ContactDAO {
+
+	public Optional<Contact> searchByName(String name) {
+		return Optional.ofNullable(null);
+	}
+}
+
+```
+
+<a href="https://github.com/gil-son/java/tree/main/8/Optional/src/ex01">See more</a>
+
+
+
+
+
+## Sources:
+
+<ul>
+  <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html">Docs - Oracle - Java 8 - Optional</a></li>
+  <li><a href="https://medium.com/@racc.costa/optional-no-java-8-e-no-java-9-7c52c4b797f1"> Medium - Optional</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
