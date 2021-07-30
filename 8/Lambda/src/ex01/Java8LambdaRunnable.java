@@ -18,7 +18,7 @@ public class Java8LambdaRunnable {
 		
 		// Example Java 8 with Lambda
 		
-		new Thread(() -> {
+		new Thread(() -> { 
 			System.out.println("Hello World!");
 		}).run();
 
