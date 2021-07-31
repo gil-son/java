@@ -1,7 +1,7 @@
 # Java
 
 
-<div align="center"><img  width="%" src="https://media.vlpt.us/images/codemcd/post/3b9bb04f-c4ea-4ba4-a715-65d33d843c5c/Java_Logo.png" /></div>
+<div align="center"><img  width="65%" src="https://media.vlpt.us/images/codemcd/post/3b9bb04f-c4ea-4ba4-a715-65d33d843c5c/Java_Logo.png" /></div>
 <br/>
 <br/>
 
