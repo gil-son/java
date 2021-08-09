@@ -125,6 +125,22 @@ public interface Runnable {
 </p>
 
 
+
+### Stream
+
+<p>
+	There is a stream api that was brought in in java 8 along with the lambdas functions.
+	Okay, but what is a stream? stream is a data flux, that can be combined with Lambda to implement leaner codes
+</p>
+
+
+<p>
+	See more
+</p>
+
+
+
+
 <hr/>
 
 ### Sources
