@@ -60,7 +60,7 @@
      <td><a href="https://github.com/gil-son/java/tree/main/Association">Association</a></td>
      <td>
        <ul>
-            <li><a href="https://github.com/gil-son/java/tree/main/Association/Agreggation">Agreggation</a></li>
+            <li><a href="https://github.com/gil-son/java/tree/main/Association/Aggregation">Agreggation</a></li>
             <li><a href="https://github.com/gil-son/java/tree/main/Association/Association">Association</a></li>
             <li><a href="https://github.com/gil-son/java/tree/main/Association/Composition">Composition</a></li>
        </ul>
@@ -85,7 +85,7 @@
      <td>
        <ul>
             <li><a href="https://github.com/gil-son/java/tree/main/Concepts/Casting">Casting</a></li>
-            <li><a href="https://github.com/gil-son/java/tree/main/Exceptions">Exceptions</a></li>
+            <li><a href="https://github.com/gil-son/java/tree/main/Concepts/Exceptions">Exceptions</a></li>
        </ul>
     </td>
  </tr>
@@ -98,9 +98,9 @@
                 <li><a href="https://github.com/gil-son/java/tree/main/DataStructures/concepts/LinkedList">LinkedList</a></li>
              </ul>
             </li>
-            <li><a href="https://github.com/gil-son/java/tree/main/DataStructures/LinkedList/courses">courses</a>
+            <li><a href="https://github.com/gil-son/java/tree/main/DataStructures/courses">courses</a>
               <ul>
-                <li><a href="https://github.com/gil-son/java/tree/main/DataStructures/LinkedList/courses/LoianeGroner">LoianeGroner</a></li>
+                <li><a href="https://github.com/gil-son/java/tree/main/DataStructures/courses/LoianeGroner">LoianeGroner</a></li>
              </ul>
             </li>
        </ul>
