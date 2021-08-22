@@ -12,11 +12,11 @@ public class JavaLambdaStream {
 		
 		List<Integer> list = Arrays.asList(1,2,3,4,4,6,7,8,9);
 		
-		// Are operations can be intregrantion between stream, how many is necessary
+		// The intermed operations can be intregrantion between stream, how many is necessary
 		list.stream()
 			.filter(e -> e % 2 == 0)
-			.skip(2) // Intermed operation
-			.skip(1) // Intermed operation
+			.skip(2) 
+			.skip(1) 
 			.limit(3)
 			.map(e -> e * 2)
 			.distinct()
