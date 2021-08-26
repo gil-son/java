@@ -86,6 +86,7 @@
        <ul>
             <li><a href="https://github.com/gil-son/java/tree/main/Concepts/Casting">Casting</a></li>
             <li><a href="https://github.com/gil-son/java/tree/main/Concepts/Exceptions">Exceptions</a></li>
+            <li><a href="https://github.com/gil-son/java/tree/main/Concepts/Generics">Generics</a></li>
        </ul>
     </td>
  </tr>
