@@ -19,6 +19,6 @@ public class Java8Streams {
 		.min(Comparator.naturalOrder());
 		
 		System.out.println(min.get());
-		
+		System.out.println(min.orElse(5));
 	}
 }
