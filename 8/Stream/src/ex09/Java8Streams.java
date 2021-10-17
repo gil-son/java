@@ -24,7 +24,18 @@ public class Java8Streams {
 		
 		// Java 8
 		
+		listPerson.stream()
+		.filter(e -> e.getAge() % 3 == 0)
+		.forEach(l -> System.out.println(l.getName()));
+			
 		
+			
+		/*
+		for(int i = 0 ; i < listPerson.size(); i++) {
+			System.out.println(listPerson.get(i).getName());
+		}
+		*/
+			
 	}
 	
 }
