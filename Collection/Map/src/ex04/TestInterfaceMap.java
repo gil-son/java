@@ -22,5 +22,9 @@ public class TestInterfaceMap {
 		System.out.println(" Key = "+key+", Value = "+mapNames.get(key));
 	}
     
+    for(int i = 1; i <= mapNames.size(); i++){
+    	  System.out.println(i + " - " + mapNames.get(i));
+    	}
+    
   }
 }

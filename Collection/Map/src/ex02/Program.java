@@ -16,5 +16,10 @@ public class Program {
 		for( String key : map.keySet()) {
 			System.out.println(" Key = "+key+", Value = "+map.get(key));
 		}
+		
+		for(int i = 1; i <= map.size(); i++){
+	    	  System.out.println(map.keySet().toArray()[i-1]);
+	    	}
+		
 	}
 }
