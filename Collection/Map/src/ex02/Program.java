@@ -10,6 +10,9 @@ public class Program {
 		map.put("user", "Maria");
 		map.put("phone", "32659878");
 		
+		System.out.println(map.keySet().toArray()[1]);
+	    System.out.println(map.get("user"));
+		
 		for( String key : map.keySet()) {
 			System.out.println(" Key = "+key+", Value = "+map.get(key));
 		}
