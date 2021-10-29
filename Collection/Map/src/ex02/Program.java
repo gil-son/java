@@ -20,6 +20,5 @@ public class Program {
 		for(int i = 1; i <= map.size(); i++){
 	    	  System.out.println(map.keySet().toArray()[i-1]);
 	    	}
-		
 	}
 }

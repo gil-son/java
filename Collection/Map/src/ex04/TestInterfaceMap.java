@@ -16,7 +16,7 @@ public class TestInterfaceMap {
     System.out.println(mapNames);
     
     System.out.println(mapNames.keySet().toArray()[0]);
-    System.out.println(mapNames.get(1)); 
+    System.out.println(mapNames.get(1));
 
     for( Integer key : mapNames.keySet()) {
 		System.out.println(" Key = "+key+", Value = "+mapNames.get(key));
@@ -25,6 +25,5 @@ public class TestInterfaceMap {
     for(int i = 1; i <= mapNames.size(); i++){
     	  System.out.println(i + " - " + mapNames.get(i));
     	}
-    
   }
 }
