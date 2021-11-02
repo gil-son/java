@@ -154,11 +154,15 @@
   <li>
      <a href="https://www.devmedia.com.br/"> DevMedia</a>
   </li>
+   <li>
+     <a href="https://devsuperior.com.br">Dev Superior</a>
+  </li>
  <li>
   <a href="https://www.youtube.com/watch?v=O0fP8jA4RVA" />DevDojo</a></li>
   <li><a href="https://angeliski.com.br/2014/01/05/equals-e-hashcode/#:~:text=O%20hashCode%20%C3%A9%20uma%20ferramenta,de%20hash%20de%20modo%20correto." />Angelisk</a></li>
   <li>
      <a href="https://www.infoescola.com/informatica/historia-do-java/"> Info Escola</a>
   </li>
+
   
 </ul>
