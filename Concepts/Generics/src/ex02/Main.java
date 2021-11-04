@@ -15,7 +15,6 @@ public class Main {
 	}
 	
 	
-	
 	class Animal { }
 	class Horse extends Animal { }
 
