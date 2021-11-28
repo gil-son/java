@@ -166,4 +166,7 @@
   <li>
      <a href="https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY"> Curso em video - Curso de POO Java</a>
   </li> 
+  <li>
+     <a href="https://www.youtube.com/watch?v=lbCYLgoVpfQ&list=PLuYctAHjg89ZkhgOQo0zcTtmHY5nuRYud"> RinaldoDev - Java 8</a>
+  </li> 
 </ul>
