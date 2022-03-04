@@ -177,5 +177,8 @@
   </li> 
   <li>
      <a href="https://www.youtube.com/watch?v=lbCYLgoVpfQ&list=PLuYctAHjg89ZkhgOQo0zcTtmHY5nuRYud"> RinaldoDev - Java 8</a>
-  </li> 
+  </li>
+  <li>
+     <a href="https://www.baeldung.com">Baeldung</a>
+  </li>
 </ul>
