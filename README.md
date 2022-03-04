@@ -124,6 +124,15 @@
      </td>
  </tr>
  <tr align="center">
+     <td><a href="https://github.com/gil-son/java/tree/main/Libraries">Libraries</a></td>
+     <td>
+       <ul>
+            <li><a href="https://github.com/gil-son/java/tree/main/Libraries/JacksonObjectMapper">Jackson Object Mapper</a></li>
+            <li><a href="https://github.com/gil-son/java/tree/main/Libraries/TreeModelNodes%20InJackson">Tree Model Nodes in Jackson</a></li>
+       </ul>
+    </td>
+ </tr>
+ <tr align="center">
      <td><a href="https://github.com/gil-son/java/tree/main/OO">OO</a></td>
      <td>
        <ul>
