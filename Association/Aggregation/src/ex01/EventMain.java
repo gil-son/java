@@ -14,9 +14,12 @@ public class EventMain {
 		Sales sales2 = new Sales(2, product2, seller2, client2);
 		
 		
+		Sales sales3 = new Sales(3, new Product(1,525.0f,20), new Seller(2,80.02f), client2);
+		
 		sales.confirmSales();
 		sales2.confirmSales();
 		sales2.cancelSales();
+		sales3.cancelSales();
 	}
 
 }
