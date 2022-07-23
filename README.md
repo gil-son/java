@@ -199,4 +199,10 @@
   <li>
      <a href="https://roadmap.sh/roadmaps/java.png">roadmap.sh - Java</a>
   </li>
+  <li>
+     <a href="https://www.alura.com.br">Alura</a>
+  </li>
+  <li>
+     <a href="https://www.udemy.com">Udemy</a>
+  </li>
 </ul>
