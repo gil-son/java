@@ -172,6 +172,9 @@
   <li>
      <a href="https://www.java.com/pt-BR/"> Oracle</a>
   </li>
+   <li>
+     <a href="https://www.oracle.com/br/java/"> Oracle Brasil</a>
+  </li>
   <li>
      <a href="https://www.youtube.com/channel/UCqQn92noBhY9VKQy4xCHPsg"> Loiane Groner</a>
   </li>
